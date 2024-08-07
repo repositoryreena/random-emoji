@@ -1,0 +1,30 @@
+body, html{
+    height: 100vh;
+    overflow: hidden;
+}
+
+body{
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+p{
+    color: blue;
+}
+.container{
+    background-color: rgba(248, 146, 134, 50%);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 75px;
+}
+.container:hover{
+    cursor:pointer;
+}
+h2{
+    color: white;
+}
